@@ -7,7 +7,7 @@ services:
       context: .
       dockerfile: Dockerfile
     ports:
-      - "3001:3001"
+      - "3002:3002"
     volumes:
       - .:/node_app/app
     command: /bin/sh -c "chmod +x entrypoint.sh && /node_app/app/entrypoint.sh"

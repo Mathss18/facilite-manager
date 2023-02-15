@@ -7,7 +7,7 @@ RUN npm install
 
 WORKDIR /node_app/app
 COPY . .
-EXPOSE 3001
+EXPOSE 3002
 
 USER node
 CMD ["npm", "run", "dev"]
